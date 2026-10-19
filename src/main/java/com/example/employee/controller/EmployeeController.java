@@ -12,7 +12,7 @@ import java.util.List;
 @CrossOrigin(origins = "*") // Angular sathi CORS allow kela
 public class EmployeeController {
 
-    @Autowired
+    @Autowired 
     private EmployeeRepository employeeRepository;
 
     @GetMapping
